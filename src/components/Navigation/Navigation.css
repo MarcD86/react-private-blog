@@ -1,0 +1,48 @@
+.nav-container {
+    flex-basis: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    background-color: #3624ff;
+    display: flex;
+    justify-content: start;
+    height: 60px;
+}
+
+.default-link {
+    border-bottom: 1px solid transparent;
+}
+
+.active-link {
+    border-bottom: 1px solid black;
+    animation: blinkingBackground 1s infinite;
+}
+
+@keyframes blinkingBackground {
+    50% {
+        color: #10c018;
+    }
+}
+
+@keyframes blinkingBackground2 {
+    50% {
+        background-color: red;
+    }
+}
+
+ul {
+    list-style-type: none;
+    flex-basis: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav:hover {
+    animation: blinkingBackground2 200ms infinite;
+}

@@ -1,0 +1,13 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.login {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
+.page-container {
+    padding-left: 20px;
+}
