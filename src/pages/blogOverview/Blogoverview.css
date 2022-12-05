@@ -1,0 +1,8 @@
+.blogposts a {
+    color: black !important;
+}
+
+.blogposts a:visited {
+    color: purple;
+}
+
